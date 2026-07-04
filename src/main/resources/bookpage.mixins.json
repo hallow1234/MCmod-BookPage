@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.bookpage.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "BookEditScreenMixin",
+    "BookViewScreenMixin",
+    "ScreenAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

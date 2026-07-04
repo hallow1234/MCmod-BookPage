@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bookpage",
+  "version": "${version}",
+  "name": "BookPage",
+  "description": "还在为MC的书翻页而烦恼吗？此mod为书与笔和成书添加了输入页码翻页的功能。",
+  "authors": [
+    "haollow",
+    "WorkBuddy"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/bookpage/bookpage"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/bookpage/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.bookpage.BookPageMod"
+    ],
+    "client": [
+      "net.bookpage.BookPageClient"
+    ]
+  },
+  "mixins": [
+    "bookpage.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
