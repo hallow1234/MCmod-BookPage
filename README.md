@@ -8,9 +8,12 @@
 
 ## 使用方法
 1.打开书与笔/成书
+
 2.在左上角输入框中输入想要翻到的已有页码
+
 3.点击输入框左边的按钮或回车
 
 
 
-*使用WorkBuddy辅助编写*"# MCmod-BookPage" 
+*使用WorkBuddy辅助编写*
+"# MCmod-BookPage" 
