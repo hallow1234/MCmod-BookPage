@@ -45,7 +45,7 @@ public abstract class BookViewScreenMixin {
         this.bookpage$pageInput.setValue(String.valueOf(this.currentPage + 1));
         this.bookpage$pageInput.setOnEnter(this::bookpage$jumpToPage);
 
-        this.bookpage$jumpButton = Button.builder(Component.literal("→"), button -> this.bookpage$jumpToPage())
+        this.bookpage$jumpButton = Button.builder(Component.literal("\u2192"), button -> this.bookpage$jumpToPage())
                 .bounds(inputX + 26, inputY, 12, 12)
                 .build();
 

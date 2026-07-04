@@ -9,8 +9,10 @@ pluginManagement {
 	}
 	resolutionStrategy {
 		eachPlugin {
-			if (requested.id.namespace == 'net.fabricmc' && requested.id.name == 'fabric-loom') {
-				useModule("net.fabricmc:fabric-loom:${requested.version}")
+			if (requested.id.namespace == 'net.fabricmc') {
+				if (requested.id.name == 'fabric-loom' || requested.id.name == 'fabric-loom-remap') {
+					useModule("net.fabricmc:fabric-loom:${requested.version}")
+				}
 			}
 		}
 	}

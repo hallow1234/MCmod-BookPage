@@ -15,21 +15,12 @@
   "license": "CC0-1.0",
   "icon": "assets/bookpage/icon.png",
   "environment": "client",
-  "entrypoints": {
-    "main": [
-      "net.bookpage.BookPageMod"
-    ],
-    "client": [
-      "net.bookpage.BookPageClient"
-    ]
-  },
   "mixins": [
     "bookpage.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.19.3",
-    "minecraft": ">=26.1",
-    "java": ">=25",
-    "fabric-api": "*"
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.9 <=1.21.11",
+    "java": ">=21"
   }
 }
